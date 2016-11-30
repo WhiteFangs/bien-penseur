@@ -1,7 +1,7 @@
 Bien penseur
 =============
 
-Une extension Chrome qui remplace des expressions du jargon des "mauvais penseurs" par des jolis expressions choisies par des "bien penseurs"
+Une extension Chrome qui remplace des expressions de la mal-pensance par de jolies expressions de la bien-pensance
 
 Tableau des expressions
 ------------------
