@@ -1,15 +1,16 @@
 {
 	"manifest_version": 2,
 	"name": "Bien penseur",
-	"version": "1.0",
+	"version": "1.0.0",
 	"description": "Remplace les expressions de la mal-pensance par ceux de la bien-pensance",
+	"offline_enabled": true,
 	"content_scripts": 
 	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
+	{
+		"matches": ["*://*/*"],
+		"js": ["content_script.js"],
+		"run_at": "document_end"
+	}
 	]
 }
 

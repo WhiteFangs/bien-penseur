@@ -8,5 +8,5 @@ Tableau des expressions
 
 | Expression    | Remplacement  | 
 | ------------- |:-------------:|
-| bobo | _à définir_ |
+| bobo | citoyen sympa _(temporaire)_ |
 | bien-pensance | _à définir_ |
