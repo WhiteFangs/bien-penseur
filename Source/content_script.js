@@ -1,3 +1,29 @@
+// This object contains the expressions to find as keys and their replacements as value
+// The replacement works on capitalized, uppercase and tiret-separated words
+// But the words to replace are searched as full words only
+// So don't forget to add plurals or feminines as well to have them replaced correctly
+var replacements = {
+	"bobo" : "citoyen aisé, diplômé et progressiste", 
+	"bobos" : "citoyens aisés, diplômés et progressistes", // define plurals
+	"bien-pensance" : "pensée bienveillante", // replaces also "bienpensance"
+	"bien-pensant" : "bienveillant",
+	"bien-pensants" : "bienveillants",
+	"bien-pensante" : "bienveillante", // define feminines 
+	"bien-pensantes" : "bienveillantes", // and their plurals
+	"dissidence" : "divergence d'opinion",
+	"dissident" : "divergeant d'opinion",
+	"dissidents" : "divergeants d'opinion",
+	"dissidente" : "divergeante d'opinion",
+	"dissidentes" : "divergeantes d'opinion",
+	"gauchisme" : "pensée de gauche",
+	"gauchiste" : "partisan de gauche",
+	"gauchistes" : "partisans de gauche",
+	"gaucho" : "partisan de gauche",
+	"gauchos" : "partisans de gauche",
+	"gauchiasse" : "partisanne de gauche",
+	"gauchiasses" : "partisannes de gauche",
+};
+
 walk(document.body);
 
 function walk(node) 
@@ -30,10 +56,14 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = replace(v, "bobo", "citoyen sympa");
-	v = replace(v, "bobos", "citoyens sympas");
-
+	Object.keys(replacements).map(function(expression, index) {
+		var remplacement = replacements[expression];
+		v = replace(v, expression, remplacement);
+		if(expression.indexOf("-"))
+			v = replace(v, expression.replace("-", ""), remplacement);
+	});
 	textNode.nodeValue = v;
+
 }
 
 

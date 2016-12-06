@@ -1,7 +1,7 @@
 Bien penseur
 =============
 
-Une extension Chrome qui remplace des expressions de la mal-pensance par de jolies expressions de la bien-pensance
+Une extension Chrome qui remplace des expressions de la mal-pensance par de jolies expressions de la bien-pensance (plutôt premier degré)
 
 > Certaines personnes pensent étrangement que donner son opinion c'est de la liberté d'expression, mais que critiquer celle-ci est une sorte de censure.
 
@@ -14,15 +14,16 @@ Tableau des expressions
 
 | Expression    | Remplacement  | 
 | ------------- |:-------------:|
-| bobo(s) | citoyen(s) sympa(s) _(temporaire)_ |
-| bien(-)pensance | _à définir_ |
-| bien(-)pensant(e/s) | _à définir_ |
-| dissidence | _à définir_ |
-| dissident(e/s) | _à définir_ |
-| gauchisme | _à définir_ |
-| gauchiste(s) | _à définir_ |
-| gaucho(s) | _à définir_ |
-| gauchiasse(s) | _à définir_ |
+| bobo(s) | citoyen(s) aisé(s), diplômé(s) et progressiste(s) |
+| bobosphère | _à définir_ |
+| bien(-)pensance | pensée bienveillante |
+| bien(-)pensant(e/s) | bienveillant(e/s) |
+| dissidence | divergence d'opinion |
+| dissident(e/s) | divergeant(e/s) d'opinion |
+| gauchisme | pensée de gauche |
+| gauchiste(s) | partisan(s) de gauche |
+| gaucho(s) | partisan(s) de gauche |
+| gauchiasse(s) | partisanne(s) de gauche |
 | islamo(-)gauchisme | _à définir_ |
 | islamo(-)gauchiste(s) | _à définir_ |
 | islamo(-)bolchévique(s) | _à définir_ |
@@ -35,7 +36,7 @@ Tableau des expressions
 | journalope(s) | _à définir_ |
 | merdia(s) | _à définir_ |
 | bisounours | _à définir_ |
-| l/des assisté(e/s) | _à définir_ |
+| assisté(e/s) | _à définir_ |
 | fémi(-)nazi(e/s) | _à définir_ |
 | grand remplacement | _à définir_ |
 | multi(-)culturalisme | _à définir_ |
