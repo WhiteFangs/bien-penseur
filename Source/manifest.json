@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Bien penseur",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Remplace les expressions de la mal-pensance par ceux de la bien-pensance",
 	"offline_enabled": true,
 	"homepage_url": "https://github.com/WhiteFangs/bien-penseur",

@@ -49,3 +49,4 @@ Tableau des expressions
 | procès stalinien(s) | débat(s) contradictoire(s) |
 | politburo | secrétariat général de la haute autorité |
 | police(s) de la pensée | contradiction(s) argumentée(s) et éclairé(s) |
+| politiquement correct | traitement des gens avec respect |

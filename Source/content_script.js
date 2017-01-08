@@ -68,6 +68,7 @@ var replacements = {
 	"politburo" : "secrétariat général de la haute autorité",
 	"police de la pensée" : "contradiction argumentée et éclairée",
 	"polices de la pensée" : "contradictions argumentées et éclairées",
+	"politiquement correct" : "traitement des gens avec respect",
 };
 
 walk(document.body);
