@@ -1,6 +1,8 @@
 Bien penseur
 =============
 
+![](/Source/icons/icon_128.png)
+
 Une extension Chrome qui remplace des expressions de la mal-pensance par de jolies expressions de la bien-pensance (plus ou moins premier degré)
 
 > Certaines personnes pensent étrangement que donner son opinion c'est de la liberté d'expression, mais que critiquer celle-ci est une sorte de censure.
